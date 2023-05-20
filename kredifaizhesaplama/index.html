@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kredi Faiz Hesaplama</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>KREDİ FAİZİ HESAPLAMA FORMU</h1>
+    <form action="#" id="formKredi">
+
+        <label for="txtKrediTutari">Çekeceğiniz kredi tutarını giriniz:</label>
+        <input type="text" id="txtKrediTutari"> <br> <br>
+        <label for="listeVade">Vade seçin</label>
+        <select name="" id="listeVade">
+            <option value="12">12 ay</option>
+            <option value="24">8 ay</option>
+            <option value="36">6 ay</option>
+            <option value="48">4 ay</option>
+        </select> <br> <br>
+        <input type="button" value="Kredi Geri Ödeme Şartlarını Hesaplama" onclick="krediHesapla();">
+
+    </form>
+    <h5 id="sonuc"></h5>
+
+</body>
+
+</html>
